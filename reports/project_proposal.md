@@ -37,7 +37,7 @@ A potential plot if we chose to try and optimize the algorithm might compare the
 of the model, as well as how well it is maintaining the ratio between attributes and created rules. 
 It might look something like the plot below.
 
-!(pp2_potentialplot.png)
+![](pp2_potentialplot.png)
 
 If we plot predictive accuracy vs ratio of attributes to rules, we might find that there is a critical ratio that causes
 the most accuracy, and trying to overcomplicate the rules after that point leads to diminishing returns.  
