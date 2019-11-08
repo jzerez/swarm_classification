@@ -12,7 +12,7 @@ Our approach will use agents to traverse the space of all possible rules, and id
 that lead to the most effective method of classification. 
 We will be using public-domain data sets for testing and agent-based modeling to approach this problem. 
  
-*Data mining with an ant colony optimization algorithm*
+**Data mining with an ant colony optimization algorithm**
 
 R.S. Parpinelli, H.S. Lopes, A.A. Freitas, IEEE Transactions on Evolutionary Computation, Column: 6 Issue: 4 
 https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1027744
