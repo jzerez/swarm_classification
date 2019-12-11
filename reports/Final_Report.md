@@ -45,7 +45,9 @@ and data classifications. In other words, this heuristic identifies attributes v
 with a specific class. In a classic ACA, the probability of taking a step in a certain direction along a path 
 is proportional to the amount of pheromone in that direction. However, in Ant Miner, 
 the probability of taking a step in a certain direction is proportional to both the problem dependent heuristic function
-and the pheromones.
+and the pheromones. The image below shows the pheromone trails updating as more ants traverse across the ruleset. 
+
+![pheromones](ACO_progression.png)
     
 Ant Miner implements rule pruning, a technique quite common in classification algorithms. After a path is first generated, the agent evaluates how much each part of the solution/path contributes to the overall quality of the solution/path. If any parts of the path are redundant, or harmful to the overall quality of the path, those parts are removed, or pruned, from the path. This process is done iteratively until all path segments directly benefit the quality of the overall path. This step is important as it allows for much faster convergence of rules and allows for the removal of 'unlucky' steps taken by the stochastic model.
 	After pruning, the Ant’s path and its associated quality is used to update the pheromones in the Simulation.
