@@ -54,11 +54,11 @@ Ant Miner implements rule pruning, a technique quite common in classification al
 ## Results
 We use Ant Miner to classify three sets of data from the UCI Machine Learning Repository: Tic-tac-toe, Breast Cancer (Ljubljana), and Breast Cancer (Wisconsin) Ant Miner algorithm creates rules that correctly classify 92% (+/- 2.5%) of Tic-Tac-Toe games from a set of data, correctly classify 88.7% (+/- 3.4%) of breast cancer cases (Ljubljana), and correctly classify 78.9% (+/- 4.9%) of breast cancer cases 
 
-|  Data | Percent Accuracy  |  Tolerance |   |   |
-|---|---|---|---|---|
-| Tic-Tac-Toe  |  92%  | +/- 2.5%  |   |   |
-|  Ljubljana Breast Cancer | 88.7%  | (+/- 3.4%)  |   |   |
-|  Wisconsin Breast Cancer | 78.9%  |  (+/- 4.9%)  |   |   |
+|  Data | Percent Accuracy  |  Tolerance |
+|---|---|---|
+| Tic-Tac-Toe  |  92%  | +/- 2.5%  |
+|  Ljubljana Breast Cancer | 88.7%  | (+/- 3.4%)  |
+|  Wisconsin Breast Cancer | 78.9%  |  (+/- 4.9%)  |
 
 ## Interpretation
 Most of the generated rulesets contain only a few rules, typically fewer than 10.
