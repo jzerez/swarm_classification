@@ -52,7 +52,7 @@ Ant Miner implements rule pruning, a technique quite common in classification al
 	For any given dataset, we take a random 80% of the data to use for training, and set aside the remaining 20% to use for testing and validating. Because this entire process is stochastic, we do this process of randomly dividing the dataset into training and testing data ten times. This allows us to calculate the average accuracy of the resulting ruleset, as well as the standard deviation of the accuracy. Additionally, it allows us to calculate the average number of rules used in the ruleset, which is a useful metric for understanding the overall complexity of the ruleset. 
 
 ## Results
-    We use Ant Miner to classify three sets of data from the UCI Machine Learning Repository: Tic-tac-toe, Breast Cancer (Ljubljana), and Breast Cancer (Wisconsin) Ant Miner algorithm creates rules that correctly classify 92% (+/- 2.5%) of Tic-Tac-Toe games from a set of data, correctly classify 88.7% (+/- 3.4%) of breast cancer cases (Ljubljana), and correctly classify 78.9% (+/- 4.9%) of breast cancer cases 
+We use Ant Miner to classify three sets of data from the UCI Machine Learning Repository: Tic-tac-toe, Breast Cancer (Ljubljana), and Breast Cancer (Wisconsin) Ant Miner algorithm creates rules that correctly classify 92% (+/- 2.5%) of Tic-Tac-Toe games from a set of data, correctly classify 88.7% (+/- 3.4%) of breast cancer cases (Ljubljana), and correctly classify 78.9% (+/- 4.9%) of breast cancer cases 
 
 |  Data | Percent Accuracy  |  Tolerance |   |   |
 |---|---|---|---|---|
@@ -78,7 +78,7 @@ This number was chosen to try and capture a good picture of the spread of the da
 but we didn’t have the time to run for many more iterations. 
 
 
-![box plot]('box plot breast cancer wisconsin.png')
+![box plot](box_plot.png)
 
 In this figure, we can see that the mean value and max value are pretty consistent across all colony sizes.
 However, the upper and lower quartiles shrink for the higher ant colonies. 
